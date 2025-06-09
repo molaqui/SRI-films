@@ -78,13 +78,7 @@ INSERT INTO `movie` (`file_name`, `cast`, `genres`, `title`, `video`, `year`, `e
 ('Waiting_for_the_Barbarians.pdf', 'Mark Rylance, Johnny Depp, Robert Pattinson, Gana Bayarsaikhan, Greta  Scacchi', 'Drama', 'Waiting for the Barbarians', 'https://www.youtube.com/watch?si=pOdVwQAJWH3evesP&v=7p7Wb25yZDU&feature=youtu.be', 2020, 'Waiting for the Barbarians is a 2019 drama film directed by Ciro Guerra in his  English-language directorial debut. The film is based on the 1980 novel of the same  name by J. M. Coetzee. It stars Mark Rylance, Johnny Depp, Robert Pattinson, Gana  Bayarsa'),
 ('Wander.pdf', 'Aaron Eckhart, Katheryn Winnick, Heather Graham, Roger Dorman, Tommy Lee Jones', 'Thriller', 'Wander', 'https://youtube.com/watch?v=ioWdag5IhFk', 2021, ' Wander is a 2021 American thriller film directed by April Mullen and written by Tim Doiron. It\r\n stars Tommy Lee Jones, Aaron Eckhart, Katheryn Winnick, Heather Graham, and Roger\r\n Dorman. The story focuses on two conspiracy theorists and their investiga');
 
---
--- Index pour les tables déchargées
---
 
---
--- Index pour la table `movie`
---
 ALTER TABLE `movie`
   ADD PRIMARY KEY (`file_name`);
 COMMIT;
